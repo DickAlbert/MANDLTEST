@@ -1,0 +1,516 @@
+﻿Log file open, 11/06/17 09:45:22
+LogInit:Display: Running engine for game: MANDLTEST
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1206174339) SRandInit(1206174339).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092459
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.06-14.45.22:958][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.06-14.45.22:958][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.06-14.45.22:998][  0]LogInit: Computer: DICKSERRATO
+[2017.11.06-14.45.22:999][  0]LogInit: User: dicka
+[2017.11.06-14.45.22:999][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.06-14.45.22:999][  0]LogInit: High frequency timer resolution =3.312788 MHz
+[2017.11.06-14.45.22:999][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2017.11.06-14.45.22:999][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.06-14.45.22:999][  0]LogMemory: Process Physical Memory: 271.78 MB used, 271.78 MB peak
+[2017.11.06-14.45.22:999][  0]LogMemory: Process Virtual Memory: 264.96 MB used, 264.96 MB peak
+[2017.11.06-14.45.22:999][  0]LogMemory: Physical Memory: 4906.38 MB used,  19586.80 MB free, 24493.18 MB total
+[2017.11.06-14.45.22:999][  0]LogMemory: Virtual Memory: 647.26 MB used,  19586.80 MB free, 134217728.00 MB total
+[2017.11.06-14.45.23:057][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.11.06-14.45.23:057][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.11.06-14.45.24:064][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.06-14.45.24:134][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560 Ti' (Feature Level 11_0)
+[2017.11.06-14.45.24:134][  0]LogD3D11RHI:       979/0/12246 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.06-14.45.24:137][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2017.11.06-14.45.24:137][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.06-14.45.24:138][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.06-14.45.24:138][  0]LogD3D11RHI:       0/0/12246 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.06-14.45.24:138][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.06-14.45.24:142][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.06-14.45.24:142][  0]LogD3D11RHI:     GPU DeviceId: 0x1200 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.06-14.45.24:142][  0]LogWindows: EnumDisplayDevices:
+[2017.11.06-14.45.24:143][  0]LogWindows:    0. 'NVIDIA GeForce GTX 560 Ti' (P:1 D:1)
+[2017.11.06-14.45.24:143][  0]LogWindows:    1. 'NVIDIA GeForce GTX 560 Ti' (P:0 D:0)
+[2017.11.06-14.45.24:143][  0]LogWindows:    2. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2017.11.06-14.45.24:143][  0]LogWindows:    3. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2017.11.06-14.45.24:143][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2017.11.06-14.45.24:143][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560 Ti
+[2017.11.06-14.45.24:143][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.11.06-14.45.24:143][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.11.06-14.45.24:143][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2017.11.06-14.45.24:166][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.11.06-14.45.24:166][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.06-14.45.24:177][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.06-14.45.24:179][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (D:/Unreal Projects/MANDLTEST/Intermediate/Shaders/WorkingDirectory/328/).
+[2017.11.06-14.45.24:179][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dicka/AppData/Local/Temp/UnrealShaderWorkingDir/2BD605DB4C87A30B4FEAB48C91285FB2/'.
+[2017.11.06-14.45.24:179][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.06-14.45.25:432][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.06-14.45.25:484][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.06-14.45.25:531][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.06-14.45.25:578][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.06-14.45.25:624][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.06-14.45.25:671][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.06-14.45.25:718][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.06-14.45.25:763][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.06-14.45.25:802][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.06-14.45.25:846][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.06-14.45.25:890][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.06-14.45.25:936][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.06-14.45.25:981][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.06-14.45.26:026][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.06-14.45.26:071][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.06-14.45.26:164][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.06-14.45.26:164][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.06-14.45.26:198][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.06-14.45.26:285][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.06-14.45.26:312][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.06-14.45.26:356][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.06-14.45.26:403][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.06-14.45.26:450][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.06-14.45.26:495][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.06-14.45.26:495][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.06-14.45.26:923][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.06-14.45.27:024][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/dicka/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.06-14.45.27:024][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dicka/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.06-14.45.27:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/MANDLTEST/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.06-14.45.27:024][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.06-14.45.27:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/MANDLTEST/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.06-14.45.27:024][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.06-14.45.27:042][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.06-14.45.27:054][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dicka/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.06-14.45.27:065][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.06-14.45.27:065][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.06-14.45.27:066][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.06-14.45.27:066][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.06-14.45.27:457][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.06-14.45.27:534][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.06-14.45.27:706][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.06-14.45.27:744][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.06-14.45.27:788][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.06-14.45.27:788][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.06-14.45.27:788][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.06-14.45.28:390][  0]LogNetVersion: MANDLTEST , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3055121113)
+[2017.11.06-14.45.28:452][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2017.11.06-14.45.28:521][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.050238 seconds
+[2017.11.06-14.45.28:526][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.06-14.45.28:526][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.06-14.45.28:526][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.06-14.45.28:581][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.06-14.45.31:105][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.06-14.45.31:143][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.06-14.45.31:633][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.06-14.45.31:997][  0]SourceControl: Info Source control is disabled
+[2017.11.06-14.45.31:998][  0]SourceControl: Info Source control is disabled
+[2017.11.06-14.45.32:040][  0]SourceControl: Info Source control is disabled
+[2017.11.06-14.45.32:081][  0]SourceControl: Info Source control is disabled
+[2017.11.06-14.45.32:696][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.06-14.45.33:281][  0]LogEngine: Initializing Engine...
+[2017.11.06-14.45.33:281][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.06-14.45.33:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.06-14.45.33:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.06-14.45.33:606][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.06-14.45.33:614][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.06-14.45.33:639][  0]LogInit: FAudioDevice initialized.
+[2017.11.06-14.45.33:687][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/dicka/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.06-14.45.33:704][  0]LogInit: Texture streaming: Enabled
+[2017.11.06-14.45.33:785][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.06-14.45.33:978][  0]LogInit: Transaction tracking system initialized
+[2017.11.06-14.45.34:242][  0]BlueprintLog: New page: Editor Load
+[2017.11.06-14.45.35:020][  0]LocalizationService: Info Localization service is disabled
+[2017.11.06-14.45.35:620][  0]LogConsoleResponse:Display: 
+[2017.11.06-14.45.35:809][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.06-14.45.35:809][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.06-14.45.36:151][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MANDLTEST/Content/' took 0.01s
+[2017.11.06-14.45.36:707][  0]SourceControl: Info Source control is disabled
+[2017.11.06-14.45.36:707][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.06-14.45.36:728][  0]LightingResults: New page: Lighting Build
+[2017.11.06-14.45.36:762][  0]MapCheck: New page: Map Check
+[2017.11.06-14.45.36:762][  0]LightingResults: New page: Lighting Build
+[2017.11.06-14.45.38:311][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.11.06-14.45.38:414][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.06-14.45.38:464][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.06-14.45.38:523][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.696ms to complete.
+[2017.11.06-14.45.38:524][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 1.816
+[2017.11.06-14.45.38:575][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.06-14.45.38:986][  0]LogCollectionManager: Loaded 0 collections in 0.001421 seconds
+[2017.11.06-14.45.39:115][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MANDLTEST/Saved/Collections/' took 0.01s
+[2017.11.06-14.45.39:115][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MANDLTEST/Content/Developers/dicka/Collections/' took 0.01s
+[2017.11.06-14.45.39:115][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MANDLTEST/Content/Collections/' took 0.01s
+[2017.11.06-14.45.39:115][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.06-14.45.39:138][  0]LogContentBrowser: Native class hierarchy populated in 0.0218 seconds. Added 2329 classes and 491 folders.
+[2017.11.06-14.45.39:212][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.06-14.45.39:992][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.06-14.45.40:100][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.06-14.45.40:586][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.06-14.45.40:642][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.06-14.45.40:645][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.06-14.45.40:697][  0]LogSlate: Took 0.018273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.06-14.45.40:964][  0]LogRenderer: Reallocating scene render targets to support 872x556 NumSamples 1 (Frame:1).
+[2017.11.06-14.45.41:334][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.06-14.45.41:394][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.06-14.45.41:394][  0]LogLoad: (Engine Initialization) Total time: 20.30 seconds
+[2017.11.06-14.45.41:394][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2017.11.06-14.45.41:394][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.06-14.45.41:431][  0]Cmd: ACTOR HIDE SELECTED
+[2017.11.06-14.45.41:473][  0]LogOcInput: OculusInput pre-init called
+[2017.11.06-14.45.41:473][  0]LogHMD: Starting GearVRController plugin
+[2017.11.06-14.45.41:537][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.06-14.45.41:645][  0]LogSlate: Took 0.019825 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.06-14.45.41:701][  1]LogAssetRegistry: Asset discovery search completed in 13.2708 seconds
+[2017.11.06-14.45.41:702][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.06-14.45.41:702][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2017.11.06-14.49.58:726][553]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.06-14.49.59:249][553]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.06-14.49.59:448][553]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.11.06-14.50.00:749][553]LogSlate: Took 0.046698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.06-14.50.01:084][554]LogSlate: Took 0.007111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.06-14.50.29:497][250]LogSlate: Took 0.028932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.06-14.51.15:862][583]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.11.06-14.51.15:922][583]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CollisionCylinder is already used by CapsuleComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-14.51.15:922][583]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.Arrow is already used by ArrowComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-14.51.15:922][583]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharMoveComp is already used by CharacterMovementComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-14.51.15:922][583]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_78.CharacterMesh0 is already used by SkeletalMeshComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-14.51.21:316][ 54]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.11.06-14.54.08:325][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2017.11.06-14.54.08:429][802]LogSavePackage: Save=51.77ms
+[2017.11.06-14.54.08:429][802]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerCharacter3D4E92AE44474C19F8FB629B1728467E.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.11.06-14.54.08:431][802]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.11.06-14.54.28:189][906]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.11.06-14.54.48:626][643]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.11.06-14.57.26:222][329]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.11.06-14.57.37:382][550]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.06-14.57.37:459][550]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-14.57.37:459][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-14.57.37:487][550]PIE: New page: PIE session: SideScrollerExampleMap (Nov 6, 2017, 4:57:37 AM)
+[2017.11.06-14.57.37:487][550]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.11.06-14.57.37:527][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040641s)
+[2017.11.06-14.57.37:528][550]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.11.06-14.57.37:529][550]LogPlayLevel: PIE: World Init took: (0.001297s)
+[2017.11.06-14.57.37:529][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.042265s)
+[2017.11.06-14.57.37:554][550]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.06-14.57.37:564][550]LogInit: FAudioDevice initialized.
+[2017.11.06-14.57.37:608][550]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.06-14.57.37:637][550]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.11.06-09.57.37
+[2017.11.06-14.57.37:673][550]LogWorld: Bringing up level for play took: 0.050822
+[2017.11.06-14.57.37:772][550]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.06-14.57.37:773][550]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.075
+[2017.11.06-14.57.37:773][550]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-14.57.38:629][635]LogBlueprintUserMessages: [SideScrollerCharacter_78] 9
+[2017.11.06-14.57.39:018][682]LogBlueprintUserMessages: [SideScrollerCharacter_78] 8
+[2017.11.06-14.57.39:319][718]LogBlueprintUserMessages: [SideScrollerCharacter_78] 7
+[2017.11.06-14.57.39:585][750]LogBlueprintUserMessages: [SideScrollerCharacter_78] 6
+[2017.11.06-14.57.39:835][780]LogBlueprintUserMessages: [SideScrollerCharacter_78] 5
+[2017.11.06-14.57.40:010][801]LogBlueprintUserMessages: [SideScrollerCharacter_78] 4
+[2017.11.06-14.57.40:177][821]LogBlueprintUserMessages: [SideScrollerCharacter_78] 3
+[2017.11.06-14.57.40:335][840]LogBlueprintUserMessages: [SideScrollerCharacter_78] 2
+[2017.11.06-14.57.40:502][860]LogBlueprintUserMessages: [SideScrollerCharacter_78] 1
+[2017.11.06-14.57.40:668][880]LogBlueprintUserMessages: [SideScrollerCharacter_78] 0
+[2017.11.06-14.57.40:844][901]LogBlueprintUserMessages: [SideScrollerCharacter_78] -1
+[2017.11.06-14.57.41:002][920]LogBlueprintUserMessages: [SideScrollerCharacter_78] -2
+[2017.11.06-14.57.41:169][940]LogBlueprintUserMessages: [SideScrollerCharacter_78] -3
+[2017.11.06-14.57.41:335][960]LogBlueprintUserMessages: [SideScrollerCharacter_78] -4
+[2017.11.06-14.57.41:794][ 15]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-14.57.41:833][ 15]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-14.58.29:710][827]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.06-14.58.38:939][854]LogSavePackage: Save=173.82ms
+[2017.11.06-14.58.38:939][854]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerExampleMap_Auto1B61F170D46CD2CF9CCAF8D98C222357B.tmp' to 'D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2017.11.06-14.58.38:940][854]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap
+[2017.11.06-14.58.38:941][854]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.237
+[2017.11.06-14.58.38:941][854]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.237
+[2017.11.06-14.58.38:943][854]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2017.11.06-14.58.38:969][854]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2017.11.06-14.58.38:969][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2017.11.06-14.58.39:015][854]LogSavePackage: Save=43.73ms
+[2017.11.06-14.58.39:015][854]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerCharacter_Auto14A6560F143372153B94A66BCBCFF42D8.tmp' to 'D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset'
+[2017.11.06-14.58.39:015][854]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset
+[2017.11.06-14.58.39:016][854]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Blueprints/FuelPickUp] ([1] browsable assets)...
+[2017.11.06-14.58.39:016][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/FuelPickUp]
+[2017.11.06-14.58.39:025][854]LogSavePackage: Save=8.86ms
+[2017.11.06-14.58.39:025][854]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/FuelPickUp_Auto19CC7BB4046D78431913A92AA1408C9AA.tmp' to 'D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/FuelPickUp_Auto1.uasset'
+[2017.11.06-14.58.39:026][854]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/FuelPickUp_Auto1.uasset
+[2017.11.06-14.58.39:026][854]LogFileHelpers: Auto-saving content packages took 0.084
+[2017.11.06-15.03.14:274][ 52]BlueprintLog: New page: Compile FuelPickUp
+[2017.11.06-15.03.27:905][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.06-15.03.52:334][546]LogRenderer: Reallocating scene render targets to support 1000x872 NumSamples 1 (Frame:2567).
+[2017.11.06-15.04.18:620][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.06-15.04.19:359][254]LogEditorViewport: Clicking on Actor (LMB): FuelPickUp_C (FuelPickUp)
+[2017.11.06-15.04.29:285][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/FuelPickUp" FILE="D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/FuelPickUp.uasset" SILENT=true
+[2017.11.06-15.04.29:309][871]LogSavePackage: Save=22.55ms
+[2017.11.06-15.04.29:309][871]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/FuelPickUp69A9016344C279EC26C8F1A59DCF915B.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/FuelPickUp.uasset'
+[2017.11.06-15.04.29:311][871]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/FuelPickUp.uasset
+[2017.11.06-15.04.31:792][ 51]BlueprintLog: New page: Compile FuelPickUp
+[2017.11.06-15.05.21:997][216]LogSavePackage: Save=178.69ms
+[2017.11.06-15.05.21:998][216]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerExampleMapE19D8340462CFBF4DC3F498488BBE150.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2017.11.06-15.05.22:001][216]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2017.11.06-15.05.22:028][216]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.321
+[2017.11.06-15.05.22:030][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2017.11.06-15.05.22:068][216]LogSavePackage: Save=35.98ms
+[2017.11.06-15.05.22:068][216]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerCharacterFB37E69C4A114438737DF8BA976728F8.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.11.06-15.05.22:077][216]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.11.06-15.05.30:103][838]LogEditorViewport: Clicking on Actor (LMB): FuelPickUp_C (FuelPickUp)
+[2017.11.06-15.05.32:709][146]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.06-15.05.32:723][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-15.05.32:723][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-15.05.32:723][146]PIE: New page: PIE session: SideScrollerExampleMap (Nov 6, 2017, 5:05:32 AM)
+[2017.11.06-15.05.32:723][146]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.11.06-15.05.32:744][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020997s)
+[2017.11.06-15.05.32:745][146]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.11.06-15.05.32:745][146]LogPlayLevel: PIE: World Init took: (0.001172s)
+[2017.11.06-15.05.32:746][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.022513s)
+[2017.11.06-15.05.32:771][146]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.06-15.05.32:779][146]LogInit: FAudioDevice initialized.
+[2017.11.06-15.05.32:814][146]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.06-15.05.32:818][146]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.11.06-10.05.32
+[2017.11.06-15.05.32:819][146]LogWorld: Bringing up level for play took: 0.003413
+[2017.11.06-15.05.32:820][146]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.878
+[2017.11.06-15.05.32:820][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-15.05.41:975][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-15.05.42:018][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-15.05.43:186][357]LogEditorViewport: Clicking on Actor (LMB): FuelPickUp_C (FuelPickUp)
+[2017.11.06-15.06.38:246][971]BlueprintLog: New page: Compile FuelPickUp
+[2017.11.06-15.07.07:261][544]BlueprintLog: New page: Compile FuelPickUp
+[2017.11.06-15.07.09:332][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/FuelPickUp" FILE="D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/FuelPickUp.uasset" SILENT=true
+[2017.11.06-15.07.09:367][670]LogSavePackage: Save=32.52ms
+[2017.11.06-15.07.09:367][670]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/FuelPickUp27F0B09847D2F2D2E97B0A860D16E5BC.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/FuelPickUp.uasset'
+[2017.11.06-15.07.09:369][670]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/FuelPickUp.uasset
+[2017.11.06-15.07.13:460][945]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.06-15.07.13:470][945]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-15.07.13:470][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-15.07.13:470][945]PIE: New page: PIE session: SideScrollerExampleMap (Nov 6, 2017, 5:07:13 AM)
+[2017.11.06-15.07.13:470][945]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.11.06-15.07.13:492][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022152s)
+[2017.11.06-15.07.13:493][945]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.11.06-15.07.13:493][945]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2017.11.06-15.07.13:493][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.023477s)
+[2017.11.06-15.07.13:520][945]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.06-15.07.13:528][945]LogInit: FAudioDevice initialized.
+[2017.11.06-15.07.13:561][945]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.06-15.07.13:565][945]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.11.06-10.07.13
+[2017.11.06-15.07.13:566][945]LogWorld: Bringing up level for play took: 0.003308
+[2017.11.06-15.07.13:567][945]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.131
+[2017.11.06-15.07.13:567][945]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-15.07.16:477][284]LogBlueprintUserMessages: [FuelPickUp_98] 11
+[2017.11.06-15.08.39:717][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-15.08.39:760][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-15.16.57:963][471]LogSavePackage: Save=179.99ms
+[2017.11.06-15.16.57:963][471]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerExampleMap_Auto21872F87D469E363F7A8C8FBCABF69F99.tmp' to 'D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap'
+[2017.11.06-15.16.57:965][471]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap
+[2017.11.06-15.16.57:966][471]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.210
+[2017.11.06-15.16.57:966][471]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.210
+[2017.11.06-15.18.14:460][ 95]LogLinker: Can't find file '/Game/SideScrollerBP/Blueprints/HUD'
+[2017.11.06-15.18.14:460][ 95]LogLinker: Can't find file '/Game/SideScrollerBP/Blueprints/HUD'
+[2017.11.06-15.21.54:504][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.06-15.21.54:993][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.06-15.21.55:407][  2]LogEditorViewport: Clicking on Actor (LMB): FuelPickUp_C (FuelPickUp)
+[2017.11.06-15.21.56:686][146]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ledge1)
+[2017.11.06-15.21.57:989][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2017.11.06-15.21.59:706][465]LogEditorViewport: Clicking on Actor (LMB): FuelPickUp_C (FuelPickUp)
+[2017.11.06-15.22.11:860][866]LogEditorViewport: Clicking on Actor (LMB): FuelPickUp_C (FuelPickUp)
+[2017.11.06-15.22.12:292][914]LogEditorViewport: Clicking on Actor (LMB): FuelPickUp_C (FuelPickUp)
+[2017.11.06-15.22.13:542][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.06-15.22.16:259][332]LogSavePackage: Save=176.86ms
+[2017.11.06-15.22.16:259][332]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerExampleMap9721855F46BA8E60F3FCB9825E108851.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2017.11.06-15.22.16:262][332]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2017.11.06-15.22.16:626][332]LogSavePackage: Save=304.33ms
+[2017.11.06-15.22.16:626][332]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerExampleMap_BuiltData277418614FC941EA602D0D9D27BEFD1F.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2017.11.06-15.22.16:628][332]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset
+[2017.11.06-15.25.12:578][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.06-15.25.13:161][701]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.11.06-15.25.14:295][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.06-15.25.15:001][845]LogEditorViewport: Clicking on Actor (LMB): AIChracter_C (AIChracter)
+[2017.11.06-15.25.25:268][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.11.06-15.29.20:515][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.06-15.29.21:313][368]LogEditorViewport: Clicking on Actor (LMB): AIChracter_C (AIChracter)
+[2017.11.06-15.32.16:509][967]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.036
+[2017.11.06-15.32.16:511][967]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Blueprints/HUD] ([1] browsable assets)...
+[2017.11.06-15.32.16:511][967]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/HUD]
+[2017.11.06-15.32.16:511][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/HUD" FILE="D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.11.06-15.32.16:521][967]LogSavePackage: Save=8.59ms
+[2017.11.06-15.32.16:521][967]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/HUD_Auto3AE29F7D749DAE56599236D99E7F4A3D9.tmp' to 'D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/HUD_Auto3.uasset'
+[2017.11.06-15.32.16:522][967]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/HUD_Auto3.uasset
+[2017.11.06-15.32.16:522][967]LogFileHelpers: Auto-saving content packages took 0.012
+[2017.11.06-16.41.07:973][713]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/dicka/Dropbox/DiseñoTransmedia/Videojuego/black_bar_big.png)
+[2017.11.06-16.41.07:983][713]LogTexture:Display: Building textures: black_bar_big (BGRA8, 470X83)
+[2017.11.06-16.41.07:991][713]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/dicka/Dropbox/DiseñoTransmedia/Videojuego/healthbar2.jpg)
+[2017.11.06-16.41.07:995][713]LogTexture:Display: Building textures: healthbar2 (BGRA8, 400X121)
+[2017.11.06-16.42.53:861][169]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.019
+[2017.11.06-16.42.53:862][169]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Blueprints/HUD] ([1] browsable assets)...
+[2017.11.06-16.42.53:862][169]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/HUD]
+[2017.11.06-16.42.53:862][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/HUD" FILE="D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/HUD_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.11.06-16.42.53:875][169]LogSavePackage: Save=11.03ms
+[2017.11.06-16.42.53:875][169]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/HUD_Auto4A78041C04F989737FD57CBB7B159ECD6.tmp' to 'D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/HUD_Auto4.uasset'
+[2017.11.06-16.42.53:875][169]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/HUD_Auto4.uasset
+[2017.11.06-16.42.53:876][169]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/black_bar_big] ([1] browsable assets)...
+[2017.11.06-16.42.53:877][169]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Blueprints/black_bar_big.black_bar_big]
+[2017.11.06-16.42.53:877][169]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/black_bar_big]
+[2017.11.06-16.42.53:881][169]LogSavePackage: Save=2.88ms
+[2017.11.06-16.42.53:881][169]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/black_bar_big_Auto44927EDAF466DD01AE1F642A4874BE27E.tmp' to 'D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/black_bar_big_Auto4.uasset'
+[2017.11.06-16.42.53:882][169]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/black_bar_big_Auto4.uasset
+[2017.11.06-16.42.53:882][169]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/healthbar2] ([1] browsable assets)...
+[2017.11.06-16.42.53:885][169]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Blueprints/healthbar2.healthbar2]
+[2017.11.06-16.42.53:885][169]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/healthbar2]
+[2017.11.06-16.42.53:906][169]LogSavePackage: Save=19.77ms
+[2017.11.06-16.42.53:906][169]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/healthbar2_Auto439629BC448897749BB1D48A99BAE435C.tmp' to 'D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/healthbar2_Auto4.uasset'
+[2017.11.06-16.42.53:907][169]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/healthbar2_Auto4.uasset
+[2017.11.06-16.42.53:907][169]LogFileHelpers: Auto-saving content packages took 0.045
+[2017.11.06-16.48.37:481][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.06-16.48.38:424][ 11]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ProgressBar_70' or package '/Engine/Transient'.
+[2017.11.06-16.48.41:060][ 53]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/dicka/Dropbox/DiseñoTransmedia/Videojuego/healthbar.png)
+[2017.11.06-16.48.41:082][ 53]LogTexture:Display: Building textures: healthbar (BGRA8, 2640X345)
+[2017.11.06-16.52.59:410][833]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.018
+[2017.11.06-16.52.59:412][833]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Blueprints/HUD] ([1] browsable assets)...
+[2017.11.06-16.52.59:412][833]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/HUD]
+[2017.11.06-16.52.59:412][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/HUD" FILE="D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/HUD_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.11.06-16.52.59:425][833]LogSavePackage: Save=11.93ms
+[2017.11.06-16.52.59:425][833]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/HUD_Auto5BA74698F4F3AE1CE558DA38F3E1D8E4E.tmp' to 'D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/HUD_Auto5.uasset'
+[2017.11.06-16.52.59:426][833]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/HUD_Auto5.uasset
+[2017.11.06-16.52.59:426][833]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/healthbar] ([1] browsable assets)...
+[2017.11.06-16.52.59:429][833]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Blueprints/healthbar.healthbar]
+[2017.11.06-16.52.59:429][833]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/healthbar]
+[2017.11.06-16.52.59:451][833]LogSavePackage: Save=3.66ms
+[2017.11.06-16.52.59:451][833]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/healthbar_Auto5535FE2E64DDE5517C912E0825BD57990.tmp' to 'D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/healthbar_Auto5.uasset'
+[2017.11.06-16.52.59:452][833]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Saved/Autosaves/Game/SideScrollerBP/Blueprints/healthbar_Auto5.uasset
+[2017.11.06-16.52.59:452][833]LogFileHelpers: Auto-saving content packages took 0.041
+[2017.11.06-16.54.13:657][310]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.11.06-16.54.16:800][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2017.11.06-16.54.16:847][487]LogSavePackage: Save=44.01ms
+[2017.11.06-16.54.16:847][487]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerCharacterA836A0204D3181436EFB1AB6209DBD9C.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.11.06-16.54.16:850][487]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.11.06-16.57.40:263][643]BlueprintLog: New page: Compile HUD
+[2017.11.06-16.57.40:375][643]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.06-16.59.54:927][ 59]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.06-17.00.16:485][815]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.11.06-17.00.20:190][ 96]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.06-17.00.20:204][ 96]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-17.00.20:205][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-17.00.20:205][ 96]PIE: New page: PIE session: SideScrollerExampleMap (Nov 6, 2017, 7:00:20 AM)
+[2017.11.06-17.00.20:205][ 96]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2017.11.06-17.00.20:227][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022491s)
+[2017.11.06-17.00.20:228][ 96]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.11.06-17.00.20:228][ 96]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2017.11.06-17.00.20:229][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.023775s)
+[2017.11.06-17.00.20:250][ 96]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.06-17.00.20:259][ 96]LogInit: FAudioDevice initialized.
+[2017.11.06-17.00.20:289][ 96]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.06-17.00.20:293][ 96]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2017.11.06-12.00.20
+[2017.11.06-17.00.20:294][ 96]LogWorld: Bringing up level for play took: 0.003428
+[2017.11.06-17.00.20:309][ 96]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.71
+[2017.11.06-17.00.20:309][ 96]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-17.00.23:224][438]LogBlueprintUserMessages: [FuelPickUp_98] 11
+[2017.11.06-17.00.28:986][128]LogBlueprintUserMessages: [SideScrollerCharacter_78] 10
+[2017.11.06-17.00.30:906][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-17.00.30:985][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2017.11.06-17.00.42:739][459]LogHttp:Warning: 000002419B726380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.06-17.00.42:739][459]LogHttp:Warning: 000002419B726380: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x241de817fb8 [serially])
+[2017.11.06-17.00.42:739][459]LogHttp:Warning: 000002419B726380: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2017.11.06-17.00.42:739][459]LogHttp:Warning: 000002419B726380: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.06-17.00.42:739][459]LogHttp:Warning: 000002419B726380: libcurl info message cache 3 (Closing connection 60)
+[2017.11.06-17.01.11:828][871]LogSavePackage: Save=197.53ms
+[2017.11.06-17.01.11:828][871]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerExampleMap5066547048AE18E3812648A317C85CE8.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2017.11.06-17.01.11:832][871]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2017.11.06-17.01.11:845][871]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.305
+[2017.11.06-17.01.11:867][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2017.11.06-17.01.11:921][871]LogSavePackage: Save=52.42ms
+[2017.11.06-17.01.11:921][871]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/SideScrollerCharacter5DC0B1EC45FA7FAC8C7DDDBC2ADAB112.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.11.06-17.01.11:923][871]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.11.06-17.01.11:930][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/HUD" FILE="D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/HUD.uasset" SILENT=true
+[2017.11.06-17.01.11:952][871]LogSavePackage: Save=21.20ms
+[2017.11.06-17.01.11:952][871]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/HUDCA563E3345AF86ABECD50BA38F05694C.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/HUD.uasset'
+[2017.11.06-17.01.11:953][871]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/HUD.uasset
+[2017.11.06-17.01.11:957][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/black_bar_big" FILE="D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/black_bar_big.uasset" SILENT=true
+[2017.11.06-17.01.11:962][871]LogSavePackage: Save=4.02ms
+[2017.11.06-17.01.11:962][871]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/black_bar_big3B5FCD7F4C74C901BEC4BFA2FA712A9C.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/black_bar_big.uasset'
+[2017.11.06-17.01.11:964][871]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/black_bar_big.uasset
+[2017.11.06-17.01.11:971][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/healthbar" FILE="D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/healthbar.uasset" SILENT=true
+[2017.11.06-17.01.12:007][871]LogSavePackage: Save=35.49ms
+[2017.11.06-17.01.12:007][871]LogSavePackage: Moving 'D:/Unreal Projects/MANDLTEST/Saved/healthbar914296874C074D42DACB38ACEF4D4DA0.tmp' to 'D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/healthbar.uasset'
+[2017.11.06-17.01.12:008][871]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MANDLTEST/Content/SideScrollerBP/Blueprints/healthbar.uasset
+[2017.11.06-17.01.45:023][105]LogHttp:Warning: 00000241DA8DA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.06-17.01.45:023][105]LogHttp:Warning: 00000241DA8DA800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x241de817fb8 [serially])
+[2017.11.06-17.01.45:023][105]LogHttp:Warning: 00000241DA8DA800: libcurl info message cache 1 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.06-17.01.45:023][105]LogHttp:Warning: 00000241DA8DA800: libcurl info message cache 2 (Closing connection 61)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 0 (Connection 58 seems to be dead!)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 1 (Closing connection 58)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 3 (  Trying 34.232.38.59...)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 4 (connect to 34.232.38.59 port 443 failed: Timed out)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 5 (  Trying 54.152.133.238...)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 6 (connect to 54.152.133.238 port 443 failed: Timed out)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 7 (  Trying 34.229.8.133...)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 8 (connect to 34.229.8.133 port 443 failed: Timed out)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 9 (  Trying 34.232.250.244...)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 10 (connect to 34.232.250.244 port 443 failed: Timed out)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 11 (  Trying 34.225.81.108...)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 12 (connect to 34.225.81.108 port 443 failed: Timed out)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 13 (  Trying 34.234.242.30...)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 14 (connect to 34.234.242.30 port 443 failed: Timed out)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 15 (  Trying 34.235.58.47...)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 16 (connect to 34.235.58.47 port 443 failed: Timed out)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 17 (  Trying 34.230.152.110...)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 18 (connect to 34.230.152.110 port 443 failed: Timed out)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 19 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2017.11.06-17.02.19:691][209]LogHttp:Warning: 0000024245782980: libcurl info message cache 20 (Closing connection 59)
+[2017.11.06-17.02.45:024][285]LogHttp:Warning: 00000241FD72E980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.06-17.02.45:024][285]LogHttp:Warning: 00000241FD72E980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.06-17.02.45:024][285]LogHttp:Warning: 00000241FD72E980: libcurl info message cache 1 (Closing connection 62)
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x241de817010 [can pipeline])
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: libcurl info message cache 1 (Re-using existing connection! (#63) with host datarouter.ol.epicgames.com)
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.229.8.133) port 443 (#63))
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: libcurl info message cache 3 (upload completely sent off: 363 out of 363 bytes)
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: libcurl info message cache 6 (Closing connection 63)
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B69172821-496A-1457-39A6-03A885ED437A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=c9f2d845420c992497d6f89424046dd1%7C6cfae3c4353f40d289d91f1160ec48da%7Cada52748-5036-47ef-bc51-5b90eecea6c3&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.06-17.05.16:026][738]LogHttp:Warning: 00000241FD72DC00: libcurl info message cache 9 (Closing connection 64)
+[2017.11.06-17.05.56:359][859]LogHttp:Warning: 00000241FD72E680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.06-17.05.56:359][859]LogHttp:Warning: 00000241FD72E680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.06-17.05.56:359][859]LogHttp:Warning: 00000241FD72E680: libcurl info message cache 1 (Closing connection 65)
